@@ -26,6 +26,12 @@
 		2B4AAF2A1CD99CD5009BBDB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B4AAF2D1CD99CD5009BBDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B4AAF2F1CD99CD5009BBDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4AAF361CD99E53009BBDB5 /* ClassAndObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassAndObj.h; sourceTree = "<group>"; };
+		2B4AAF371CD9A195009BBDB5 /* IvarAndProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IvarAndProperty.h; sourceTree = "<group>"; };
+		2B4AAF381CD9A28B009BBDB5 /* MethodAndMsg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodAndMsg.h; sourceTree = "<group>"; };
+		2B4AAF391CD9A3C2009BBDB5 /* Method Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Method Swizzling.h"; sourceTree = "<group>"; };
+		2B4AAF3A1CD9A40B009BBDB5 /* ProtocalAndCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocalAndCategory.h; sourceTree = "<group>"; };
+		2B4AAF3B1CD9A475009BBDB5 /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +64,14 @@
 		2B4AAF1D1CD99CD5009BBDB5 /* ios_runtime */ = {
 			isa = PBXGroup;
 			children = (
-				2B4AAF211CD99CD5009BBDB5 /* AppDelegate.h */,
-				2B4AAF221CD99CD5009BBDB5 /* AppDelegate.m */,
-				2B4AAF241CD99CD5009BBDB5 /* ViewController.h */,
-				2B4AAF251CD99CD5009BBDB5 /* ViewController.m */,
-				2B4AAF271CD99CD5009BBDB5 /* Main.storyboard */,
-				2B4AAF2A1CD99CD5009BBDB5 /* Assets.xcassets */,
-				2B4AAF2C1CD99CD5009BBDB5 /* LaunchScreen.storyboard */,
-				2B4AAF2F1CD99CD5009BBDB5 /* Info.plist */,
+				2B4AAF351CD99E20009BBDB5 /* default */,
 				2B4AAF1E1CD99CD5009BBDB5 /* Supporting Files */,
+				2B4AAF361CD99E53009BBDB5 /* ClassAndObj.h */,
+				2B4AAF371CD9A195009BBDB5 /* IvarAndProperty.h */,
+				2B4AAF381CD9A28B009BBDB5 /* MethodAndMsg.h */,
+				2B4AAF391CD9A3C2009BBDB5 /* Method Swizzling.h */,
+				2B4AAF3A1CD9A40B009BBDB5 /* ProtocalAndCategory.h */,
+				2B4AAF3B1CD9A475009BBDB5 /* Other.h */,
 			);
 			path = ios_runtime;
 			sourceTree = "<group>";
@@ -77,6 +82,21 @@
 				2B4AAF1F1CD99CD5009BBDB5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B4AAF351CD99E20009BBDB5 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				2B4AAF211CD99CD5009BBDB5 /* AppDelegate.h */,
+				2B4AAF221CD99CD5009BBDB5 /* AppDelegate.m */,
+				2B4AAF241CD99CD5009BBDB5 /* ViewController.h */,
+				2B4AAF251CD99CD5009BBDB5 /* ViewController.m */,
+				2B4AAF271CD99CD5009BBDB5 /* Main.storyboard */,
+				2B4AAF2A1CD99CD5009BBDB5 /* Assets.xcassets */,
+				2B4AAF2C1CD99CD5009BBDB5 /* LaunchScreen.storyboard */,
+				2B4AAF2F1CD99CD5009BBDB5 /* Info.plist */,
+			);
+			name = default;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +321,7 @@
 				2B4AAF341CD99CD5009BBDB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
